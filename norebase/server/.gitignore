@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.*.local
+
+# TypeScript build outputs
+dist/
+build/
+
+# Testing
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Mac system files
+.DS_Store
+
+# IDE and Editor folders/files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jest and testing snapshots
+__snapshots__/
