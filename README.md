@@ -1,6 +1,4 @@
-// README.md
-module.exports = `
-# My Backend Project
+# Norebase Technical Challenge
 
 This is a TypeScript-based backend project that uses MongoDB as the database and Docker for containerization. The project also includes Jest for unit testing.
 
@@ -18,32 +16,32 @@ This is a TypeScript-based backend project that uses MongoDB as the database and
 1. Clone the repository:
 
    \`\`\`bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/ehxdie/norebase-technical-challenge
    \`\`\`
 
-2. Install the dependencies:
+3. Install the dependencies:
 
    \`\`\`bash
    cd your-project
    npm install
    \`\`\`
 
-3. Set up the environment variables:
+4. Set up the environment variables:
 
    Create a \`.env\` file in the root of the project and add the following variables:
 
    \`\`\`
    MONGO_URI=mongodb://your-mongodb-connection-string
-   PORT=3000
+   PORT=5000
    \`\`\`
 
-4. Start the development server:
+5. Start the development server:
 
    \`\`\`bash
-   npm run dev
+   ts-node index.ts
    \`\`\`
 
-   The server will start running on \`http://localhost:3000\`.
+   The server will start running on \`http://localhost:5000\`.
 
 ## Usage
 
@@ -62,7 +60,7 @@ You can use a tool like Postman or cURL to interact with the API.
 The project uses Jest for unit testing. To run the tests:
 
 \`\`\`bash
-npm test
+npx jest
 \`\`\`
 
 This will execute all the tests and display the results.
@@ -78,20 +76,10 @@ docker build -t your-project .
 To run the Docker container:
 
 \`\`\`bash
-docker run -p 3000:3000 your-project
+docker run -p 5000:5000 your-project
 \`\`\`
 
 The container will start running the backend application.
-
-## Contributing
-
-We welcome contributions to the project. To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request.
 
 ## License
 
