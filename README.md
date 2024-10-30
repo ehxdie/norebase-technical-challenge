@@ -32,16 +32,17 @@ This is a TypeScript-based backend project that uses MongoDB as the database and
 
    
    MONGO_URI=mongodb://your-mongodb-connection-string
+   
    PORT=5000
    
 
-5. Start the development server:
+6. Start the development server:
 
    
    ts-node index.ts
    
 
-   The server will start running on http://localhost:5000/api/articles`.
+   The server will start running on 'http://localhost:5000/api/articles'.
 
 ## Usage
 
